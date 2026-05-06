@@ -341,16 +341,9 @@ a {
   background: var(--bg);
 }
 
-.pricing-cards {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .pricing-card {
-  flex: 1;
-  max-width: 380px;
+  max-width: 400px;
+  margin: 0 auto;
   background: linear-gradient(135deg, #2ecc71, #27ae60);
   color: #fff;
   padding: 48px 36px;
@@ -359,8 +352,11 @@ a {
   box-shadow: var(--shadow-lg);
 }
 
-.pricing-card-secondary {
-  background: linear-gradient(135deg, #3498db, #2176ae);
+.pricing-discount {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  font-weight: 500;
 }
 
 .price-amount {
