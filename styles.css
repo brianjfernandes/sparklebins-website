@@ -341,15 +341,26 @@ a {
   background: var(--bg);
 }
 
+.pricing-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .pricing-card {
-  max-width: 400px;
-  margin: 0 auto;
+  flex: 1;
+  max-width: 380px;
   background: linear-gradient(135deg, #2ecc71, #27ae60);
   color: #fff;
   padding: 48px 36px;
   border-radius: var(--radius);
   text-align: center;
   box-shadow: var(--shadow-lg);
+}
+
+.pricing-card-secondary {
+  background: linear-gradient(135deg, #3498db, #2176ae);
 }
 
 .price-amount {
@@ -383,19 +394,12 @@ a {
 
 .pricing-card .btn-primary {
   background: #fff;
-  color: var(--primary-dark);
+  color: var(--dark);
 }
 
 .pricing-card .btn-primary:hover {
   background: #f0f0f0;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-
-.pricing-note {
-  text-align: center;
-  margin-top: 24px;
-  color: var(--text-light);
-  font-size: 0.95rem;
 }
 
 /* ===== Contact ===== */
